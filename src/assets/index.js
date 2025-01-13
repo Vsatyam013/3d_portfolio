@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import Solidity from "./tech/Solidity.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,21 +21,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ethersjs from "./tech/ethersjs.png"
+import hardhat from "./tech/hardhat.jpg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import acm from "./company/acm.png";
+import IIM from "./company/IIM.jpg";
 
 import carrent from "./carrent.png";
+import tictactoe from "./tic-tac-toe.png";
+import StableCoin from "./StableCoin.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import SmartLottery from "./SmartLottery.jpg"
 
 export {
   logo,
   backend,
   creator,
   mobile,
+  ethersjs,
+  tictactoe,
+  hardhat,
+  StableCoin,
   web,
   github,
   menu,
@@ -42,9 +54,12 @@ export {
   css,
   docker,
   figma,
+  SmartLottery,
   git,
+  IIM,
   html,
   javascript,
+  Solidity,
   mongodb,
   nodejs,
   reactjs,
@@ -56,6 +71,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  acm,
   carrent,
   jobit,
   tripguide,

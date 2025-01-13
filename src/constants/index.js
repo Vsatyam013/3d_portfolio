@@ -15,11 +15,19 @@ import {
     git,
     figma,
     docker,
+    IIM,
     meta,
     starbucks,
+    Solidity,
     tesla,
+    tictactoe,
+    hardhat,
+    ethersjs,
+    acm,
     shopify,
     carrent,
+    StableCoin,
+    SmartLottery,
     jobit,
     tripguide,
     threejs,
@@ -81,8 +89,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Solidity",
+      icon: Solidity,
     },
     {
       name: "Tailwind CSS",
@@ -93,8 +101,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "ethers JS",
+      icon: ethersjs,
     },
     {
       name: "Three JS",
@@ -105,68 +113,38 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "hardhat",
+      icon: hardhat,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "PR-Team Coordinator",
+      company_name: "IIM",
+      icon: IIM,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Acted as a liaison between event organizers and speakers, facilitating effective communication.",
+        "Authored detailed event reports summarizing key activities and outcomes.",
+        "Led publicity efforts, increasing event visibility and participant engagement.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Event Team Core Member",
+      company_name: "ACM",
+      icon:acm,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Auguest 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Served as a core member of the ACM event team, contributing to event planning and execution.",
+        "Successfully conducted workshops, providing technical knowledge and skill-building opportunities to participants.",
+        "Coordinated and managed guest speakers, ensuring smooth communication and seamless event delivery.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -198,33 +176,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Collateral StableCoin",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a collateral-backed stablecoin leveraging smart contracts to ensure price stability and security through over-collateralization and automated processes.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "foundry",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Solidity",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: StableCoin,
+      source_code_link: "https://github.com/Vsatyam013/SmartLottery",
     },
     {
-      name: "Job IT",
+      name: "tic-tac-toe",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a web-based Tic-Tac-Toe game using HTML, CSS, and JavaScript, featuring an interactive user interface and responsive gameplay.",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
@@ -232,33 +210,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Web-socket",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tictactoe,
+      source_code_link: "https://github.com/Vsatyam013/tic-tac-toe",
     },
     {
-      name: "Trip Guide",
+      name: "SmartLottery",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Created a decentralized lottery application where participants pay to enter, and a Chainlink-integrated smart contract randomly selects a winner at regular intervals, ensuring fairness and automation.",
       tags: [
         {
-          name: "nextjs",
+          name: "Solidity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "hardhat",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Chainlink",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: SmartLottery,
+      source_code_link: "https://github.com/Vsatyam013/SmartLottery",
     },
   ];
   

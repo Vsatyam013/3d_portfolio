@@ -17,7 +17,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e) => { 
     const { target } = e;
     const { name, value } = target;
 
@@ -33,8 +33,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_5c63vfb',
-        'template_b5hixfa',
+        import.meta.env.VITE_APP_SERVICE,import.meta.env.VITE_APP_TEMPLATE,
         {
           from_name: form.name,
           to_name: "Satyam Verma",
@@ -42,7 +41,7 @@ const Contact = () => {
           to_email: "vsatyam013@gmail.com",
           message: form.message,
         },
-        'XIDmgV4LcLB6bCG5G'
+        import.meta.env.VITE_APP_PUBLIC_KEY
       )
       .then(
         () => {
